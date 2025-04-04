@@ -65,19 +65,14 @@ address {
   color: #2e2f42;
 }
 
-.nav-list a {
-  font-weight: 500;
-}
-
-.nav-list a:hover,
-.nav-list a:focus,
 .contact-info a:hover,
 .contact-info a:focus {
   color: #404bbf;
 }
 
-.home-link:active {
-  text-decoration: underline;
+.home-link:hover,
+.home-link:focus {
+  color: #404bbf;
 }
 
 .contact-info a {
@@ -96,7 +91,7 @@ address {
 .section-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
@@ -119,11 +114,13 @@ address {
   line-height: 1.11;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .list-subtitle {
   text-align: center;
   line-height: 1.11;
+  line-height: 1.5;
   text-transform: capitalize
 }
 
