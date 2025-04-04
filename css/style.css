@@ -1,6 +1,6 @@
 body {
-  font-family: "Roboto", "Arial", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #FFFFFF;
   font-weight: 400;
   font-size: 16px;
@@ -30,18 +30,15 @@ address {
 }
 
 .service {
-  height: 600px;
   background-color: #2e2f42;
   text-align: center;
 }
 
-.service button {
+.service-button {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background-color: #4d5ae5;
   cursor: pointer;
@@ -68,7 +65,7 @@ address {
 }
 
 .footer-logo span {
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .nav-list a {
@@ -82,7 +79,7 @@ address {
   color: #404bbf;
 }
 
-.nav-list li:nth-child(1) a:active {
+.home-link:active {
   text-decoration: underline;
 }
 
@@ -90,30 +87,45 @@ address {
   color: #434455;
 }
 
-.advantages {
-  height: 344px;
-}
-
-h1 {
+.header {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
-h2,
-h3 {
+.section-header {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+
+.list-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
 }
 
-footer {
-  height: 312px;
+.list-subtitle {
+  text-align: center;
+}
+
+.footer {
   background-color: #2e2f42;
 }
 
-footer p {
+.footer p,
+.footer a {
   color: #f4f4fd;
+}
+
+.footer a {
+  text-transform: uppercase;
 }
