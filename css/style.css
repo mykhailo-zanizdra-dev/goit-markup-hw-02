@@ -65,18 +65,18 @@ address {
   color: #2e2f42;
 }
 
-.contact-info a:hover,
-.contact-info a:focus {
+.contact-info {
+  color: #434455;
+}
+
+.contact-info:hover,
+.contact-info:focus {
   color: #404bbf;
 }
 
 .home-link:hover,
 .home-link:focus {
   color: #404bbf;
-}
-
-.contact-info a {
-  color: #434455;
 }
 
 .header {
@@ -95,6 +95,7 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize
 }
 
 .our-team {
@@ -111,7 +112,7 @@ address {
   font-weight: 500;
   font-size: 20px;
   letter-spacing: 0.02em;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   color: #2e2f42;
   text-transform: capitalize;
@@ -119,7 +120,6 @@ address {
 
 .list-subtitle {
   text-align: center;
-  line-height: 1.11;
   line-height: 1.5;
   text-transform: capitalize
 }
