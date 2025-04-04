@@ -37,6 +37,7 @@ address {
 .service-button {
   font-weight: 500;
   letter-spacing: 0.04em;
+  line-height: 1.5;
   color: #fff;
   border-radius: 4px;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
@@ -62,10 +63,6 @@ address {
 
 .logo span {
   color: #2e2f42;
-}
-
-.footer-logo span {
-  color: #4d5ae5;
 }
 
 .nav-list a {
@@ -105,27 +102,37 @@ address {
   color: #2e2f42;
 }
 
+.our-team {
+  background-color: #F4F4FD
+}
+
+.team-member {
+  background-color: #fff;
+  border-radius: 0 0 4px 4px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
 .list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  letter-spacing: 0.02em;
+  line-height: 1.11;
   text-align: center;
   color: #2e2f42;
 }
 
 .list-subtitle {
   text-align: center;
+  line-height: 1.11;
+  text-transform: capitalize
 }
 
 .footer {
   background-color: #2e2f42;
+  text-transform: capitalize
 }
 
-.footer p,
-.footer a {
+
+.footer-text {
   color: #f4f4fd;
-}
-
-.footer a {
-  text-transform: uppercase;
 }

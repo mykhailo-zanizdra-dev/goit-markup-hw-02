@@ -5,8 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+        integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,7 +21,7 @@
         <nav>
             <a href="./index.html" class="logo">Web<span>Studio</span></a>
             <ul class="nav-list">
-                <li class="home-link"><a href="./index.html">Studio</a></li>
+                <li><a class="home-link" href="./index.html">Studio</a></li>
                 <li><a href="">Portfolio</a></li>
                 <li><a href="">Contacts</a></li>
             </ul>
@@ -72,22 +73,22 @@
         <section class="our-team">
             <h2 class="section-header">Our Team</h2>
             <ul>
-                <li>
+                <li class="team-member">
                     <img width="264" height="260" src="./images/team/img_mark_guerrero.jpg" alt="Product Designer">
                     <h3 class="list-title">Mark Guerrero</h3>
                     <p class="list-subtitle">Product Designer</p>
                 </li>
-                <li>
+                <li class="team-member">
                     <img width="264" height="260" src="./images/team/img_tom_ford.jpg" alt="Frontend Developer">
                     <h3 class="list-title">Tom Ford</h3>
                     <p class="list-subtitle">Frontend Developer</p>
                 </li>
-                <li>
+                <li class="team-member">
                     <img width="264" height="260" src="./images/team/img_camila_garcia.jpg" alt="Marketing">
                     <h3 class="list-title">Camila Garcia</h3>
                     <p class="list-subtitle">Marketing</p>
                 </li>
-                <li>
+                <li class="team-member">
                     <img width="264" height="260" src="./images/team/img_daniel_wilson.jpg" alt="UI Designer">
                     <h3 class="list-title">Daniel Wilson</h3>
                     <p class="list-subtitle">UI Designer</p>
@@ -134,8 +135,9 @@
     </main>
 
     <footer class="footer">
-        <a class="footer-logo" href="./index.html"><span>Web</span>Studio</a>
-        <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+        <a class="footer-logo" href="./index.html">Web<span class="footer-text">Studio</span></a>
+        <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing &
+            growth solutions.</p>
     </footer>
 </body>
 
